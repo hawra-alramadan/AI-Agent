@@ -56,7 +56,7 @@ const APIKeyManager = () => {
           </p>
 
           <input
-            type="text"
+            type="password" // Changed to password to mask the key input
             value={apiKey}
             onChange={(e) => setApiKey(e.target.value)}
             className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300 dark:bg-gray-700 dark:text-white"
